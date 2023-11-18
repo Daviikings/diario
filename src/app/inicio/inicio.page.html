@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <p id="fechaTexto">{{entradaActual.fechaTexto}}</p>
+      <ion-textarea rows="15" [(ngModel)] = "entradaActual.texto">
+        
+      </ion-textarea>
+    </ion-card-content>
+    <ion-button expand="block">
+      Guardar
+    </ion-button>
+  </ion-card>
+</ion-content>
